@@ -1,0 +1,5 @@
+var floatAge, floatDays;
+   var floatAge = prompt("Enter current age");
+	age = parseFloat(floatAge);
+	var floatDays = (floatAge*365.25)
+	alert("current age in days = " + floatDays);       
