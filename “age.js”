@@ -1,0 +1,11 @@
+var floatAge, floatDays, floatWeeks, floatMonths,floatFortnight;
+   var floatAge = prompt("Enter current age");
+	floatAge = parseFloat(floatAge);
+	var floatDays = (floatAge*365.25);
+	var floatWeeks=(floatAge*52);
+	var floatMonths=(floatAge*12);
+	var floatFortnight=(floatDays*14);
+	alert("current age in days = " + floatDays); 
+    alert("current age in weeks = " + floatWeeks); 
+	alert("current age in months = " + floatMonths); 
+    alert("current age in fortnight = " + floatFortnight); 
