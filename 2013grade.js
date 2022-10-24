@@ -12,7 +12,7 @@ floatHwPts = parseFloat(prompt("Please enter final Homework points (0-30):"));
 
 floatMidPts = parseFloat(prompt("please enter midterm points(0-35):"));
 
-floatFinPts = parseFloat(prompt("please enter final points(0-35):")):
+floatFinPts = parseFloat(prompt("please enter final points(0-35):"));
 
 floatTotalPts = (floatHwPts+floatMidPts+floatFinPts);
 
@@ -27,24 +27,25 @@ else if (floatTotalPts>=80 && floatTotalPts<90);
 {
     stringFinalGrade="B"
 }
-else if (floatTotalPts>=70 && floatTotalPts<80);
+ if (floatTotalPts>=70 && floatTotalPts<80);
 {
     stringfinalgrade="C"
 }
-else if (floatTotalPts>=60 && floatTotalPts<70);
+ if (floatTotalPts>=60 && floatTotalPts<70);
 {
     stringfinalgrade="D"
 }
-else if (intGradeOption==="2")
+ if (intGradeOption==="2")
 {
     if (floatTotalPts>=80);
     {
         stringfinalgrade="pass"
     }
-else if (floatTotalPts,80);
+ if (floatTotalPts,80)
     {
          stringfinalgrade="fail"
     }
 
 
-alert("Your final grade is: " +stringFinalGrade);
+alert("Your final grade is: " +stringFinalGrade)
+};
