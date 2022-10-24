@@ -20,32 +20,32 @@ intGradeOption = parseFloat(prompt("please enter ingradeoption(1 && 2)"));
 
 if (intGradeOption===1)
 {
-    if(floatTotalPts >= 90 && floatTotalPts<100);
+    if(floatTotalPts >= 90 && floatTotalPts<100)
        stringFinalGrade="A";
 }
-else if (floatTotalPts>=80 && floatTotalPts<90);
+else if (floatTotalPts>=80 && floatTotalPts<90)
 {
-    stringFinalGrade="B"
+    stringFinalGrade="B";
 }
- if (floatTotalPts>=70 && floatTotalPts<80);
+ if (floatTotalPts>=70 && floatTotalPts<80)
 {
-    stringfinalgrade="C"
+    stringFinalGrade="C";
 }
- if (floatTotalPts>=60 && floatTotalPts<70);
+ if (floatTotalPts>=60 && floatTotalPts<70)
 {
-    stringfinalgrade="D"
+    stringFinalGrade="D";
 }
- if (intGradeOption==="2")
+else
 {
-    if (floatTotalPts>=80);
+    if (floatTotalPts>=80)
     {
-        stringfinalgrade="pass"
+        stringFinalGrade="pass";
     }
- if (floatTotalPts,80)
+else (floatTotalPts<80)
     {
-         stringfinalgrade="fail"
+         stringFinalGrade="fail";
     }
 
 
-alert("Your final grade is: " +stringFinalGrade)
+alert("Your final grade is: " +stringFinalGrade);
 };
