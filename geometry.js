@@ -29,7 +29,7 @@ var do_it = function ()
 
 //calculate the triangle area using Heron's formula (don't remember it? look it up...) and perimeter	
 	floatS = (floatTriSide2 + floatTriSide2 + floatTriSide3)/2;
-	floatTriangeArea = Math.sqrt((floatS*(floatS-floatTriSide1)*(floatS-floatTriSide2)*(floatS-floatTriSide3)));
+	floatTriangleArea = Math.sqrt((floatS*(floatS-floatTriSide1)*(floatS-floatTriSide2)*(floatS-floatTriSide3)));
 	floatTrianglePerim = floatTriSide1 + floatTriSide2 + floatTriSide3;
 
 //calculate the circle area and circumference using convenient Math Object methods	
@@ -37,7 +37,7 @@ var do_it = function ()
 	floatCircleCircum = 2 * Math.PI * floatRadius;  
 	
 	alert ("The Rectangle area is " + floatRectArea.toFixed(2) + " and the perimeter is " + floatRectPerim.toFixed(2) + "\n\n" +
-		"The Triangle area is " + floatTriangeArea.toFixed(2) + " and the perimeter is " + floatTrianglePerim.toFixed(2) + "\n\n" +
+		"The Triangle area is " + floatTriangleArea.toFixed(2) + " and the perimeter is " + floatTrianglePerim.toFixed(2) + "\n\n" +
 		"The Circle area is " + floatCircleArea.toFixed(2) + " and the circumference is " + floatCircleCircum.toFixed(2));
 
 };
@@ -148,7 +148,7 @@ window.onload = function ()
 //    $("tri_side3").value = "";
 //    $("radius").value = "";
     $("rect_width").focus(); // places the cursor in the first input box
-    $("calc_all").onclick = calRectArea,calcRectPerim,calcTriArea,calcCircleArea,calcCircleCircum,calcTriPerim; // runs the do_it function when clicked
+    $("calc_all").onclick = do_it; // runs the do_it function when clicked
     $("calc_rect_area").onclick = calRectArea;
     $("calc_rect_perim").onclick = calcRectPerim;
     $("calc_tri_area").onclick = calcTriArea;
