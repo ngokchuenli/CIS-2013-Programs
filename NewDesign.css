@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: cornsilk;
+}
+
+#content {
+    width: 600px;
+    margin: 5px auto;
+    padding: 10px 10px;
+    background: bisque;
+    border: 10px solid #000000;
+    border-color:darksalmon ;
+}
+
+h1 {
+    font-family: Georgia, serif;
+	text-align: center;
+}
+
+p {
+    font-family: Andale Mono, monospace;
+	color: crimson;
+	font-weight: bold;
+	text-align: center;
+}
+
+label {
+    display: block;
+    width: 20em;
+    text-align: right;
+    padding-right: 1em;
+    float: left;
+    margin: 3px auto;
+}
+fieldset
+{
+    margin: 5px auto;
+    
+}
+input {
+    display: block;
+    float: left;
+    width: 100px;
+}
+
+#futureValue {
+    color: #000000;
+}
+
+br {
+    clear: left;
+}
